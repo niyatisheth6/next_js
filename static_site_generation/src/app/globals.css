@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card {
+  @apply bg-blue-200 p-4 mt-3 text-2xl font-semibold flex flex-col gap-10;
+}
